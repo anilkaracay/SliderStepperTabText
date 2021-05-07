@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D07AE49F26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE49E26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift */; };
+		D07AE4A126453E500072B3FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4A026453E500072B3FA /* ContentView.swift */; };
+		D07AE4A326453E500072B3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07AE4A226453E500072B3FA /* Assets.xcassets */; };
+		D07AE4A626453E500072B3FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07AE4A526453E500072B3FA /* Preview Assets.xcassets */; };
+		D07AE4B126453E510072B3FA /* SliderStepperTabViewTextToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4B026453E510072B3FA /* SliderStepperTabViewTextToggleTests.swift */; };
+		D07AE4BC26453E510072B3FA /* SliderStepperTabViewTextToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4BB26453E510072B3FA /* SliderStepperTabViewTextToggleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D07AE4AD26453E510072B3FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07AE49326453E4F0072B3FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D07AE49A26453E500072B3FA;
+			remoteInfo = SliderStepperTabViewTextToggle;
+		};
+		D07AE4B826453E510072B3FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D07AE49326453E4F0072B3FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D07AE49A26453E500072B3FA;
+			remoteInfo = SliderStepperTabViewTextToggle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D07AE49B26453E500072B3FA /* SliderStepperTabViewTextToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderStepperTabViewTextToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07AE49E26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStepperTabViewTextToggleApp.swift; sourceTree = "<group>"; };
+		D07AE4A026453E500072B3FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D07AE4A226453E500072B3FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D07AE4A526453E500072B3FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D07AE4A726453E500072B3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07AE4AC26453E510072B3FA /* SliderStepperTabViewTextToggleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderStepperTabViewTextToggleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07AE4B026453E510072B3FA /* SliderStepperTabViewTextToggleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStepperTabViewTextToggleTests.swift; sourceTree = "<group>"; };
+		D07AE4B226453E510072B3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07AE4B726453E510072B3FA /* SliderStepperTabViewTextToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderStepperTabViewTextToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07AE4BB26453E510072B3FA /* SliderStepperTabViewTextToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStepperTabViewTextToggleUITests.swift; sourceTree = "<group>"; };
+		D07AE4BD26453E510072B3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D07AE49826453E500072B3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07AE4A926453E510072B3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07AE4B426453E510072B3FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D07AE49226453E4F0072B3FA = {
+			isa = PBXGroup;
+			children = (
+				D07AE49D26453E500072B3FA /* SliderStepperTabViewTextToggle */,
+				D07AE4AF26453E510072B3FA /* SliderStepperTabViewTextToggleTests */,
+				D07AE4BA26453E510072B3FA /* SliderStepperTabViewTextToggleUITests */,
+				D07AE49C26453E500072B3FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D07AE49C26453E500072B3FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D07AE49B26453E500072B3FA /* SliderStepperTabViewTextToggle.app */,
+				D07AE4AC26453E510072B3FA /* SliderStepperTabViewTextToggleTests.xctest */,
+				D07AE4B726453E510072B3FA /* SliderStepperTabViewTextToggleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D07AE49D26453E500072B3FA /* SliderStepperTabViewTextToggle */ = {
+			isa = PBXGroup;
+			children = (
+				D07AE49E26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift */,
+				D07AE4A026453E500072B3FA /* ContentView.swift */,
+				D07AE4A226453E500072B3FA /* Assets.xcassets */,
+				D07AE4A726453E500072B3FA /* Info.plist */,
+				D07AE4A426453E500072B3FA /* Preview Content */,
+			);
+			path = SliderStepperTabViewTextToggle;
+			sourceTree = "<group>";
+		};
+		D07AE4A426453E500072B3FA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D07AE4A526453E500072B3FA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D07AE4AF26453E510072B3FA /* SliderStepperTabViewTextToggleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D07AE4B026453E510072B3FA /* SliderStepperTabViewTextToggleTests.swift */,
+				D07AE4B226453E510072B3FA /* Info.plist */,
+			);
+			path = SliderStepperTabViewTextToggleTests;
+			sourceTree = "<group>";
+		};
+		D07AE4BA26453E510072B3FA /* SliderStepperTabViewTextToggleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D07AE4BB26453E510072B3FA /* SliderStepperTabViewTextToggleUITests.swift */,
+				D07AE4BD26453E510072B3FA /* Info.plist */,
+			);
+			path = SliderStepperTabViewTextToggleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D07AE49A26453E500072B3FA /* SliderStepperTabViewTextToggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07AE4C026453E510072B3FA /* Build configuration list for PBXNativeTarget "SliderStepperTabViewTextToggle" */;
+			buildPhases = (
+				D07AE49726453E500072B3FA /* Sources */,
+				D07AE49826453E500072B3FA /* Frameworks */,
+				D07AE49926453E500072B3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SliderStepperTabViewTextToggle;
+			productName = SliderStepperTabViewTextToggle;
+			productReference = D07AE49B26453E500072B3FA /* SliderStepperTabViewTextToggle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D07AE4AB26453E510072B3FA /* SliderStepperTabViewTextToggleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07AE4C326453E510072B3FA /* Build configuration list for PBXNativeTarget "SliderStepperTabViewTextToggleTests" */;
+			buildPhases = (
+				D07AE4A826453E510072B3FA /* Sources */,
+				D07AE4A926453E510072B3FA /* Frameworks */,
+				D07AE4AA26453E510072B3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07AE4AE26453E510072B3FA /* PBXTargetDependency */,
+			);
+			name = SliderStepperTabViewTextToggleTests;
+			productName = SliderStepperTabViewTextToggleTests;
+			productReference = D07AE4AC26453E510072B3FA /* SliderStepperTabViewTextToggleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D07AE4B626453E510072B3FA /* SliderStepperTabViewTextToggleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D07AE4C626453E510072B3FA /* Build configuration list for PBXNativeTarget "SliderStepperTabViewTextToggleUITests" */;
+			buildPhases = (
+				D07AE4B326453E510072B3FA /* Sources */,
+				D07AE4B426453E510072B3FA /* Frameworks */,
+				D07AE4B526453E510072B3FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D07AE4B926453E510072B3FA /* PBXTargetDependency */,
+			);
+			name = SliderStepperTabViewTextToggleUITests;
+			productName = SliderStepperTabViewTextToggleUITests;
+			productReference = D07AE4B726453E510072B3FA /* SliderStepperTabViewTextToggleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D07AE49326453E4F0072B3FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					D07AE49A26453E500072B3FA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					D07AE4AB26453E510072B3FA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D07AE49A26453E500072B3FA;
+					};
+					D07AE4B626453E510072B3FA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = D07AE49A26453E500072B3FA;
+					};
+				};
+			};
+			buildConfigurationList = D07AE49626453E4F0072B3FA /* Build configuration list for PBXProject "SliderStepperTabViewTextToggle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D07AE49226453E4F0072B3FA;
+			productRefGroup = D07AE49C26453E500072B3FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D07AE49A26453E500072B3FA /* SliderStepperTabViewTextToggle */,
+				D07AE4AB26453E510072B3FA /* SliderStepperTabViewTextToggleTests */,
+				D07AE4B626453E510072B3FA /* SliderStepperTabViewTextToggleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D07AE49926453E500072B3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07AE4A626453E500072B3FA /* Preview Assets.xcassets in Resources */,
+				D07AE4A326453E500072B3FA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07AE4AA26453E510072B3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07AE4B526453E510072B3FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D07AE49726453E500072B3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07AE4A126453E500072B3FA /* ContentView.swift in Sources */,
+				D07AE49F26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07AE4A826453E510072B3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07AE4B126453E510072B3FA /* SliderStepperTabViewTextToggleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D07AE4B326453E510072B3FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D07AE4BC26453E510072B3FA /* SliderStepperTabViewTextToggleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D07AE4AE26453E510072B3FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D07AE49A26453E500072B3FA /* SliderStepperTabViewTextToggle */;
+			targetProxy = D07AE4AD26453E510072B3FA /* PBXContainerItemProxy */;
+		};
+		D07AE4B926453E510072B3FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D07AE49A26453E500072B3FA /* SliderStepperTabViewTextToggle */;
+			targetProxy = D07AE4B826453E510072B3FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D07AE4BE26453E510072B3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D07AE4BF26453E510072B3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D07AE4C126453E510072B3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SliderStepperTabViewTextToggle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SliderStepperTabViewTextToggle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bitci.SliderStepperTabViewTextToggle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D07AE4C226453E510072B3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SliderStepperTabViewTextToggle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SliderStepperTabViewTextToggle/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bitci.SliderStepperTabViewTextToggle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D07AE4C426453E510072B3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SliderStepperTabViewTextToggleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bitci.SliderStepperTabViewTextToggleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderStepperTabViewTextToggle.app/SliderStepperTabViewTextToggle";
+			};
+			name = Debug;
+		};
+		D07AE4C526453E510072B3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SliderStepperTabViewTextToggleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bitci.SliderStepperTabViewTextToggleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SliderStepperTabViewTextToggle.app/SliderStepperTabViewTextToggle";
+			};
+			name = Release;
+		};
+		D07AE4C726453E510072B3FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SliderStepperTabViewTextToggleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bitci.SliderStepperTabViewTextToggleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SliderStepperTabViewTextToggle;
+			};
+			name = Debug;
+		};
+		D07AE4C826453E510072B3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SliderStepperTabViewTextToggleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = bitci.SliderStepperTabViewTextToggleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SliderStepperTabViewTextToggle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D07AE49626453E4F0072B3FA /* Build configuration list for PBXProject "SliderStepperTabViewTextToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07AE4BE26453E510072B3FA /* Debug */,
+				D07AE4BF26453E510072B3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07AE4C026453E510072B3FA /* Build configuration list for PBXNativeTarget "SliderStepperTabViewTextToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07AE4C126453E510072B3FA /* Debug */,
+				D07AE4C226453E510072B3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07AE4C326453E510072B3FA /* Build configuration list for PBXNativeTarget "SliderStepperTabViewTextToggleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07AE4C426453E510072B3FA /* Debug */,
+				D07AE4C526453E510072B3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D07AE4C626453E510072B3FA /* Build configuration list for PBXNativeTarget "SliderStepperTabViewTextToggleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07AE4C726453E510072B3FA /* Debug */,
+				D07AE4C826453E510072B3FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D07AE49326453E4F0072B3FA /* Project object */;
+}
