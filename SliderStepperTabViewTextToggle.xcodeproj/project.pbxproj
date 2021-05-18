@@ -7,12 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D016F5B5265243B000A9305A /* TextFieldEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D016F5B4265243B000A9305A /* TextFieldEx3.swift */; };
+		D016F5BA26524B7000A9305A /* TextFieldEx4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D016F5B926524B7000A9305A /* TextFieldEx4.swift */; };
+		D016F5BF2652555700A9305A /* TextFieldEx5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D016F5BE2652555700A9305A /* TextFieldEx5.swift */; };
+		D016F5C4265258CA00A9305A /* TextFieldEx6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D016F5C3265258CA00A9305A /* TextFieldEx6.swift */; };
+		D016F5C926525D6700A9305A /* ToggleEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D016F5C826525D6700A9305A /* ToggleEx1.swift */; };
+		D07253EB264A7CE800D9106B /* TabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07253EA264A7CE800D9106B /* TabView.swift */; };
+		D07253F0264A7E7300D9106B /* TabViewEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07253EF264A7E7300D9106B /* TabViewEx2.swift */; };
+		D07253F5264D82C100D9106B /* TextEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07253F4264D82C100D9106B /* TextEx1.swift */; };
+		D07253FA264D848F00D9106B /* TextEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07253F9264D848F00D9106B /* TextEx2.swift */; };
+		D07253FF264D87F700D9106B /* TextEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07253FE264D87F700D9106B /* TextEx3.swift */; };
+		D0725404264D8C3000D9106B /* TextEx4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0725403264D8C3000D9106B /* TextEx4.swift */; };
 		D07AE49F26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE49E26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift */; };
 		D07AE4A126453E500072B3FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4A026453E500072B3FA /* ContentView.swift */; };
 		D07AE4A326453E500072B3FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07AE4A226453E500072B3FA /* Assets.xcassets */; };
 		D07AE4A626453E500072B3FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D07AE4A526453E500072B3FA /* Preview Assets.xcassets */; };
 		D07AE4B126453E510072B3FA /* SliderStepperTabViewTextToggleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4B026453E510072B3FA /* SliderStepperTabViewTextToggleTests.swift */; };
 		D07AE4BC26453E510072B3FA /* SliderStepperTabViewTextToggleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4BB26453E510072B3FA /* SliderStepperTabViewTextToggleUITests.swift */; };
+		D07AE4CD264541C80072B3FA /* SliderEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4CC264541C80072B3FA /* SliderEx1.swift */; };
+		D07AE4D2264546070072B3FA /* SliderEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4D1264546070072B3FA /* SliderEx2.swift */; };
+		D07AE4D726454A2B0072B3FA /* SliderEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4D626454A2B0072B3FA /* SliderEx3.swift */; };
+		D07AE4DC264560910072B3FA /* StepperEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4DB264560910072B3FA /* StepperEx1.swift */; };
+		D07AE4E1264566930072B3FA /* StepperEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4E0264566930072B3FA /* StepperEx2.swift */; };
+		D07AE4E626459A050072B3FA /* StepperEx3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07AE4E526459A050072B3FA /* StepperEx3.swift */; };
+		D08235FF2652380900C5B2F1 /* TextEx5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08235FE2652380900C5B2F1 /* TextEx5.swift */; };
+		D082360426523BA700C5B2F1 /* TextFieldEx1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082360326523BA700C5B2F1 /* TextFieldEx1.swift */; };
+		D082360926523FBA00C5B2F1 /* TextFieldEx2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D082360826523FBA00C5B2F1 /* TextFieldEx2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +53,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D016F5B4265243B000A9305A /* TextFieldEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEx3.swift; sourceTree = "<group>"; };
+		D016F5B926524B7000A9305A /* TextFieldEx4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEx4.swift; sourceTree = "<group>"; };
+		D016F5BE2652555700A9305A /* TextFieldEx5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEx5.swift; sourceTree = "<group>"; };
+		D016F5C3265258CA00A9305A /* TextFieldEx6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEx6.swift; sourceTree = "<group>"; };
+		D016F5C826525D6700A9305A /* ToggleEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleEx1.swift; sourceTree = "<group>"; };
+		D07253EA264A7CE800D9106B /* TabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabView.swift; sourceTree = "<group>"; };
+		D07253EF264A7E7300D9106B /* TabViewEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewEx2.swift; sourceTree = "<group>"; };
+		D07253F4264D82C100D9106B /* TextEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEx1.swift; sourceTree = "<group>"; };
+		D07253F9264D848F00D9106B /* TextEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEx2.swift; sourceTree = "<group>"; };
+		D07253FE264D87F700D9106B /* TextEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEx3.swift; sourceTree = "<group>"; };
+		D0725403264D8C3000D9106B /* TextEx4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEx4.swift; sourceTree = "<group>"; };
 		D07AE49B26453E500072B3FA /* SliderStepperTabViewTextToggle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SliderStepperTabViewTextToggle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07AE49E26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStepperTabViewTextToggleApp.swift; sourceTree = "<group>"; };
 		D07AE4A026453E500072B3FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +76,15 @@
 		D07AE4B726453E510072B3FA /* SliderStepperTabViewTextToggleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderStepperTabViewTextToggleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D07AE4BB26453E510072B3FA /* SliderStepperTabViewTextToggleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderStepperTabViewTextToggleUITests.swift; sourceTree = "<group>"; };
 		D07AE4BD26453E510072B3FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D07AE4CC264541C80072B3FA /* SliderEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderEx1.swift; sourceTree = "<group>"; };
+		D07AE4D1264546070072B3FA /* SliderEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderEx2.swift; sourceTree = "<group>"; };
+		D07AE4D626454A2B0072B3FA /* SliderEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderEx3.swift; sourceTree = "<group>"; };
+		D07AE4DB264560910072B3FA /* StepperEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperEx1.swift; sourceTree = "<group>"; };
+		D07AE4E0264566930072B3FA /* StepperEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperEx2.swift; sourceTree = "<group>"; };
+		D07AE4E526459A050072B3FA /* StepperEx3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperEx3.swift; sourceTree = "<group>"; };
+		D08235FE2652380900C5B2F1 /* TextEx5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEx5.swift; sourceTree = "<group>"; };
+		D082360326523BA700C5B2F1 /* TextFieldEx1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEx1.swift; sourceTree = "<group>"; };
+		D082360826523FBA00C5B2F1 /* TextFieldEx2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldEx2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +140,26 @@
 				D07AE4A226453E500072B3FA /* Assets.xcassets */,
 				D07AE4A726453E500072B3FA /* Info.plist */,
 				D07AE4A426453E500072B3FA /* Preview Content */,
+				D07AE4CC264541C80072B3FA /* SliderEx1.swift */,
+				D07AE4D1264546070072B3FA /* SliderEx2.swift */,
+				D07AE4D626454A2B0072B3FA /* SliderEx3.swift */,
+				D07AE4DB264560910072B3FA /* StepperEx1.swift */,
+				D07AE4E0264566930072B3FA /* StepperEx2.swift */,
+				D07AE4E526459A050072B3FA /* StepperEx3.swift */,
+				D07253EA264A7CE800D9106B /* TabView.swift */,
+				D07253EF264A7E7300D9106B /* TabViewEx2.swift */,
+				D07253F4264D82C100D9106B /* TextEx1.swift */,
+				D07253F9264D848F00D9106B /* TextEx2.swift */,
+				D07253FE264D87F700D9106B /* TextEx3.swift */,
+				D0725403264D8C3000D9106B /* TextEx4.swift */,
+				D08235FE2652380900C5B2F1 /* TextEx5.swift */,
+				D082360326523BA700C5B2F1 /* TextFieldEx1.swift */,
+				D082360826523FBA00C5B2F1 /* TextFieldEx2.swift */,
+				D016F5B4265243B000A9305A /* TextFieldEx3.swift */,
+				D016F5B926524B7000A9305A /* TextFieldEx4.swift */,
+				D016F5BE2652555700A9305A /* TextFieldEx5.swift */,
+				D016F5C3265258CA00A9305A /* TextFieldEx6.swift */,
+				D016F5C826525D6700A9305A /* ToggleEx1.swift */,
 			);
 			path = SliderStepperTabViewTextToggle;
 			sourceTree = "<group>";
@@ -259,8 +319,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0725404264D8C3000D9106B /* TextEx4.swift in Sources */,
+				D07253FA264D848F00D9106B /* TextEx2.swift in Sources */,
+				D07AE4DC264560910072B3FA /* StepperEx1.swift in Sources */,
+				D07AE4D2264546070072B3FA /* SliderEx2.swift in Sources */,
+				D016F5BA26524B7000A9305A /* TextFieldEx4.swift in Sources */,
+				D016F5C4265258CA00A9305A /* TextFieldEx6.swift in Sources */,
+				D082360426523BA700C5B2F1 /* TextFieldEx1.swift in Sources */,
+				D07253F5264D82C100D9106B /* TextEx1.swift in Sources */,
+				D07253F0264A7E7300D9106B /* TabViewEx2.swift in Sources */,
+				D08235FF2652380900C5B2F1 /* TextEx5.swift in Sources */,
 				D07AE4A126453E500072B3FA /* ContentView.swift in Sources */,
+				D07AE4D726454A2B0072B3FA /* SliderEx3.swift in Sources */,
+				D07AE4E1264566930072B3FA /* StepperEx2.swift in Sources */,
+				D016F5BF2652555700A9305A /* TextFieldEx5.swift in Sources */,
+				D016F5C926525D6700A9305A /* ToggleEx1.swift in Sources */,
+				D082360926523FBA00C5B2F1 /* TextFieldEx2.swift in Sources */,
+				D016F5B5265243B000A9305A /* TextFieldEx3.swift in Sources */,
 				D07AE49F26453E500072B3FA /* SliderStepperTabViewTextToggleApp.swift in Sources */,
+				D07253FF264D87F700D9106B /* TextEx3.swift in Sources */,
+				D07AE4E626459A050072B3FA /* StepperEx3.swift in Sources */,
+				D07253EB264A7CE800D9106B /* TabView.swift in Sources */,
+				D07AE4CD264541C80072B3FA /* SliderEx1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
